@@ -95,7 +95,7 @@ status_label.pack()
 ttk.Separator(main_frame, orient='horizontal').pack(fill='x', pady=20)
 
 # 添加一个版权信息
-copyright_label = ttk.Label(main_frame, text="© 2024 王鹏 Base on Claude-3.5-Sonnet", font=('Arial', 8))
+copyright_label = ttk.Label(main_frame, text="© 2024 Base on Claude-3.5-Sonnet", font=('Arial', 8))
 copyright_label.pack(side='bottom')
 
 root.mainloop()
